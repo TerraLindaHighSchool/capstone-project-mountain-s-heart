@@ -8,6 +8,7 @@ public class BaisicMovment : MonoBehaviour
     public float jumpHeight;
     private bool onGround = false;
     private Rigidbody2D rb;
+    public Animator animator;
 
     private void Start()
     {
@@ -17,7 +18,11 @@ public class BaisicMovment : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.W) && onGround == true)
+    animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
+
+        
+
+     if (Input.GetKeyDown(KeyCode.W) && onGround == true)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
             onGround = false;
@@ -32,7 +37,7 @@ public class BaisicMovment : MonoBehaviour
         {
             rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
         }
-
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
