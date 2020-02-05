@@ -7,5 +7,5 @@ PhysicsMaterial2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Material_Physics2D_Ground_Dirt
-  friction: 9.8
-  bounciness: 0.01
+  friction: 4.5
+  bounciness: 0
