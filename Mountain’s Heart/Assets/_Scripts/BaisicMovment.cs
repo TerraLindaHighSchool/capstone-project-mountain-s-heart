@@ -11,6 +11,12 @@ public class BaisicMovment : MonoBehaviour
     [SerializeField] LayerMask groundLayer;
     [Space(5)]
 
+    [Header("Roof Checking")]
+    [SerializeField] Transform roofTransform; //This is supposed to be a transform childed to the player just above their collider.
+    [SerializeField] float roofCheckY = 0.2f;
+    [SerializeField] float roofCheckX = 1; // You probably want this to be the same as groundCheckX
+    [Space(5)]
+
 
     public float moveSpeed;
     public float jumpHeight;
@@ -22,7 +28,8 @@ public class BaisicMovment : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-
+    //updates for movment
+    //need more methods
     void Update()
     {
     animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
@@ -42,7 +49,7 @@ public class BaisicMovment : MonoBehaviour
         {
             rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
         }
-        
+        Roofed();
     }
 
     public bool Grounded()
@@ -52,6 +59,21 @@ public class BaisicMovment : MonoBehaviour
         if (Physics2D.Raycast(groundTransform.position, Vector2.down, groundCheckY, groundLayer) || Physics2D.Raycast(groundTransform.position + new Vector3(-groundCheckX, 0), Vector2.down, groundCheckY, groundLayer) || Physics2D.Raycast(groundTransform.position + new Vector3(groundCheckX, 0), Vector2.down, groundCheckY, groundLayer))
         {
             return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    public bool Roofed()
+    {
+        //This does the same thing as grounded but checks if the players head is hitting the roof instead.
+        //Used for canceling the jump.
+        if (Physics2D.Raycast(roofTransform.position, Vector2.up, roofCheckY, groundLayer) || Physics2D.Raycast(roofTransform.position + new Vector3(roofCheckX, 0), Vector2.up, roofCheckY, groundLayer) || Physics2D.Raycast(roofTransform.position + new Vector3(roofCheckX, 0), Vector2.up, roofCheckY, groundLayer))
+        {
+            Debug.Log("Roofed!");
+            return true;          
         }
         else
         {
