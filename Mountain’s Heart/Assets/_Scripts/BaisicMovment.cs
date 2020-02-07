@@ -28,7 +28,7 @@ public class BaisicMovment : MonoBehaviour
     animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
 
 
-     if (Input.GetKeyDown(KeyCode.W) && Grounded())
+     if (Input.GetKeyDown(KeyCode.W) &&  Grounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
         }
@@ -47,17 +47,16 @@ public class BaisicMovment : MonoBehaviour
 
     public bool Grounded()
     {
+        
         //this does three small raycasts at the specified positions to see if the player is grounded.
         if (Physics2D.Raycast(groundTransform.position, Vector2.down, groundCheckY, groundLayer) || Physics2D.Raycast(groundTransform.position + new Vector3(-groundCheckX, 0), Vector2.down, groundCheckY, groundLayer) || Physics2D.Raycast(groundTransform.position + new Vector3(groundCheckX, 0), Vector2.down, groundCheckY, groundLayer))
         {
-            Debug.Log("Working");
-            return true;          
+            return true;
         }
         else
         {
             return false;
         }
-
     }
 }
 
