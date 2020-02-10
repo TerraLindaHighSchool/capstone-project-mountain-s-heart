@@ -13,7 +13,7 @@ public class PlayerHealthController : MonoBehaviour
         {
             for(int i = 0; i < healthValue; i++)
             {
-                playerHealth[i] 
+                //playerHealth[i] 
             }
         }
     }
