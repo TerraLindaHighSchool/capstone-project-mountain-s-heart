@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8663436108083141200}
   - component: {fileID: 200867236157968621}
-  m_Layer: 31
+  m_Layer: 0
   m_Name: Foothills Grassy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 8740801735854101922}
   - component: {fileID: 2502264736476338663}
   - component: {fileID: 4212615715804523461}
-  m_Layer: 31
+  m_Layer: 0
   m_Name: Layer1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
