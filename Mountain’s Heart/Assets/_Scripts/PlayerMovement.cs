@@ -126,6 +126,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Walk(float MoveDirection)
     {
+        Debug.Log(MoveDirection);
         //Rigidbody2D rigidbody2D = rb;
         //float x = MoveDirection * walkSpeed;
         //Vector2 velocity = rb.velocity;
@@ -155,7 +156,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
-
+   /*
     void Attack()
     {
         timeSinceAttack += Time.deltaTime;
@@ -216,7 +217,7 @@ public class PlayerMovement : MonoBehaviour
                     if (objectsToHit[i].tag == "Enemy")
                     {
                         Mana += ManaGain;
-                    }*/
+                    }
                 }
             }
 
@@ -268,7 +269,7 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = new Vector2(-1, transform.localScale.y);
         }
     }
-
+    */
     void StopJumpQuick()
     {
         //Stops The player jump immediately, causing them to start falling as soon as the button is released.
