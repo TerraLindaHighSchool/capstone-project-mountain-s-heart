@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Heart
   layers:
   - Default
   - TransparentFX
@@ -13,8 +14,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - groundLayer
+  - Camera
   - 
   - 
   - 
@@ -40,4 +41,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1953562635
+    locked: 0
+  - name: Behind Player
+    uniqueID: 2022901325
+    locked: 0
+  - name: In front of player
+    uniqueID: 3800954385
+    locked: 0
+  - name: Foreground
+    uniqueID: 2880019115
     locked: 0
