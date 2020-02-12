@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3140714369349376020}
   - component: {fileID: 2451314897416388862}
-  m_Layer: 31
+  m_Layer: 0
   m_Name: Foothills Rocky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 2482157296441632552}
   - component: {fileID: 1398077872232750875}
   - component: {fileID: 8043487274988436148}
-  m_Layer: 31
+  m_Layer: 0
   m_Name: Layer1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
