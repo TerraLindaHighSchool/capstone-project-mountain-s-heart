@@ -46,12 +46,12 @@ public class BaisicMovment : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
         }
 
-        if (Input.GetKey(KeyCode.D)&& !WalledRight())
+        if (Input.GetKey(KeyCode.D))
         {
             rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
         }
 
-        if (Input.GetKey(KeyCode.A) && !WalledLeft())
+        if (Input.GetKey(KeyCode.A) )
         {
             rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
         }
@@ -114,5 +114,7 @@ public class BaisicMovment : MonoBehaviour
             return false;
         }
     }
+
+
 }
 
