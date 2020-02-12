@@ -15,6 +15,7 @@ public class CameraFollow : MonoBehaviour
     private Transform target;
 
     [SerializeField]
+
     [Tooltip("The offset between the target and the camera")]
     private Vector3 offset;
 
