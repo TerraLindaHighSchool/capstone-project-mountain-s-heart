@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: 8d8996d8f30cda04baf24f6a03500344
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7900429931876016986
+    second: Crawler Spritesheet_0
+  - first:
+      213: -1296055333191671475
+    second: Crawler Spritesheet_1
+  - first:
+      213: -5289484910881197629
+    second: Crawler Spritesheet_2
+  - first:
+      213: 9200819246593524005
+    second: Crawler Spritesheet_3
+  - first:
+      213: 1365493443194908135
+    second: Crawler Spritesheet_4
+  - first:
+      213: 2253301031035073859
+    second: Crawler Spritesheet_5
+  - first:
+      213: 1849003025766960983
+    second: Crawler Spritesheet_6
+  - first:
+      213: -2154560249957232717
+    second: Crawler Spritesheet_7
+  - first:
+      213: 7987801948815425306
+    second: Crawler Spritesheet_8
+  - first:
+      213: -2753737353727368395
+    second: Crawler Spritesheet_9
+  - first:
+      213: 4457255735757977715
+    second: Crawler Spritesheet_10
+  - first:
+      213: -8679843715587521903
+    second: Crawler Spritesheet_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +76,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +106,273 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Crawler Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 420
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01d9e2dfcb85804e9426b4ff7a54e80
+      internalID: 7900429931876016986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crawler Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 420
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24ccd9be66e93044944954c9e5ec174
+      internalID: -1296055333191671475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crawler Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 420
+        width: 72
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fb6592af8f979478fdff65b5cb278a
+      internalID: -5289484910881197629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crawler Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 292
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f921071deec2041aaf8c6dfdbdb2da
+      internalID: 9200819246593524005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crawler Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 292
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c852f34fe03714cb4efb370617c9d7
+      internalID: 1365493443194908135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crawler Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 292
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e72d59eac74eb468fcb94b4a0add19
+      internalID: 2253301031035073859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crawler Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 164
+        width: 68
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3848e03675eb0b8499951804b2bb6dec
+      internalID: 1849003025766960983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crawler Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 172
+        width: 60
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c110ec0bbc488a4893bb299d20e4564
+      internalID: -2154560249957232717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crawler Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 172
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7b9d96a987cc741ba2289cea37cc33
+      internalID: 7987801948815425306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crawler Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 44
+        width: 64
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868e585eeb9e606489f1f271ede26d12
+      internalID: -2753737353727368395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crawler Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 44
+        width: 72
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f44d42caf935d4791a6c0f0940e562
+      internalID: 4457255735757977715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Crawler Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 44
+        width: 72
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4c1568699f8304495ffc7f50eca2f3
+      internalID: -8679843715587521903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
