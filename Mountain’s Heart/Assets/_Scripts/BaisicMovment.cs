@@ -17,6 +17,12 @@ public class BaisicMovment : MonoBehaviour
     [SerializeField] float roofCheckX = 1; // You probably want this to be the same as groundCheckX
     [Space(5)]
 
+    [Header("Wall Checking")]
+    [SerializeField] Transform wallTransform; //This is supposed to be a transform childed to the player just around their collider.
+    [SerializeField] float wallCheckY = 0.2f;
+    [SerializeField] float wallCheckX = 1; // You probably want this to be the same as groundCheckX
+    [Space(5)]
+
 
     public float moveSpeed;
     public float jumpHeight;
@@ -32,10 +38,10 @@ public class BaisicMovment : MonoBehaviour
     //need more methods
     void Update()
     {
-    animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
+        animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
 
 
-     if (Input.GetKeyDown(KeyCode.W) &&  Grounded())
+        if (Input.GetKeyDown(KeyCode.W) && Grounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
         }
@@ -45,7 +51,7 @@ public class BaisicMovment : MonoBehaviour
             rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
         }
 
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A) )
         {
             rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
         }
@@ -54,7 +60,7 @@ public class BaisicMovment : MonoBehaviour
 
     public bool Grounded()
     {
-        
+
         //this does three small raycasts at the specified positions to see if the player is grounded.
         if (Physics2D.Raycast(groundTransform.position, Vector2.down, groundCheckY, groundLayer) || Physics2D.Raycast(groundTransform.position + new Vector3(-groundCheckX, 0), Vector2.down, groundCheckY, groundLayer) || Physics2D.Raycast(groundTransform.position + new Vector3(groundCheckX, 0), Vector2.down, groundCheckY, groundLayer))
         {
@@ -73,12 +79,42 @@ public class BaisicMovment : MonoBehaviour
         if (Physics2D.Raycast(roofTransform.position, Vector2.up, roofCheckY, groundLayer) || Physics2D.Raycast(roofTransform.position + new Vector3(roofCheckX, 0), Vector2.up, roofCheckY, groundLayer) || Physics2D.Raycast(roofTransform.position + new Vector3(roofCheckX, 0), Vector2.up, roofCheckY, groundLayer))
         {
             Debug.Log("Roofed!");
-            return true;          
+            return true;
         }
         else
         {
             return false;
         }
     }
+    public bool WalledLeft()
+    {
+        //This does the same thing as grounded but checks if the players head is hitting the roof instead.
+        //Used for canceling the jump.
+        if (Physics2D.Raycast(wallTransform.position, Vector2.left, wallCheckY, groundLayer) || Physics2D.Raycast(wallTransform.position + new Vector3(wallCheckX, 0), Vector2.left, wallCheckY, groundLayer) || Physics2D.Raycast(wallTransform.position + new Vector3(wallCheckX, 0), Vector2.left, wallCheckY, groundLayer))
+        {
+            Debug.Log("WalledL!");
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    public bool WalledRight()
+    {
+        //This does the same thing as grounded but checks if the players head is hitting the roof instead.
+        //Used for canceling the jump.
+        if (Physics2D.Raycast(wallTransform.position, Vector2.right, wallCheckY, groundLayer) || Physics2D.Raycast(wallTransform.position + new Vector3(wallCheckX, 0), Vector2.right, wallCheckY, groundLayer) || Physics2D.Raycast(wallTransform.position + new Vector3(wallCheckX, 0), Vector2.right, wallCheckY, groundLayer))
+        {
+            Debug.Log("WalledR!");
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+
 }
 
