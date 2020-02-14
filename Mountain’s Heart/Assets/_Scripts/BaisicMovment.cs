@@ -40,13 +40,12 @@ public class BaisicMovment : MonoBehaviour
     {
         animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
 
-
         if (Input.GetKeyDown(KeyCode.W) && Grounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
         }
 
-        if (Input.GetKey(KeyCode.D) && !WalledRight())
+        if (Input.GetKey(KeyCode.D) )
         {
             rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
         }
