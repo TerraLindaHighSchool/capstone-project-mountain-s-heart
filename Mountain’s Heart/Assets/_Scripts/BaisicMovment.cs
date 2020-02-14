@@ -51,7 +51,7 @@ public class BaisicMovment : MonoBehaviour
             rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
         }
 
-        if (Input.GetKey(KeyCode.A) )
+        if (Input.GetKey(KeyCode.A))
         {
             rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
         }
