@@ -197,6 +197,16 @@ PrefabInstance:
       propertyPath: groundCheckX
       value: 0.035
       objectReference: {fileID: 0}
+    - target: {fileID: 2349083058847254452, guid: 32afd34d682f9bb4290256c0058bbf27,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2349083058847254452, guid: 32afd34d682f9bb4290256c0058bbf27,
+        type: 3}
+      propertyPath: m_MovementSmoothing
+      value: 0.18
+      objectReference: {fileID: 0}
     - target: {fileID: 2349083058847254453, guid: 32afd34d682f9bb4290256c0058bbf27,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -9503,6 +9513,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grid
+      objectReference: {fileID: 0}
+    - target: {fileID: 2778654039943689016, guid: 84d00e55778612d40b8a9fd728cc6afe,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 12ff3f5b4002e7e4093e60986e5ad13e, type: 2}
+    - target: {fileID: 2778654039943689017, guid: 84d00e55778612d40b8a9fd728cc6afe,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2778654039943689017, guid: 84d00e55778612d40b8a9fd728cc6afe,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2778654039943689018, guid: 84d00e55778612d40b8a9fd728cc6afe,
         type: 3}
