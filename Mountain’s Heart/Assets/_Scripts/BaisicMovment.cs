@@ -46,23 +46,27 @@ public class BaisicMovment : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
         }
 
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.D) && !WalledRight())
         {
             rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
         }
 
+
         if (Input.GetKey(KeyCode.A))
+
         {
             rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
         }
-        Roofed();
+        //Roofed();
     }
 
     public bool Grounded()
     {
 
         //this does three small raycasts at the specified positions to see if the player is grounded.
-        if (Physics2D.Raycast(groundTransform.position, Vector2.down, groundCheckY, groundLayer) || Physics2D.Raycast(groundTransform.position + new Vector3(-groundCheckX, 0), Vector2.down, groundCheckY, groundLayer) || Physics2D.Raycast(groundTransform.position + new Vector3(groundCheckX, 0), Vector2.down, groundCheckY, groundLayer))
+        if (Physics2D.Raycast(groundTransform.position, Vector2.down, groundCheckY, groundLayer) ||
+            Physics2D.Raycast(groundTransform.position + new Vector3(groundCheckX, 0), Vector2.down + new Vector2(this.GetComponent<BoxCollider2D>().size.x / 2, 0), groundCheckY, groundLayer) ||
+            Physics2D.Raycast(groundTransform.position + new Vector3(-groundCheckX, 0), Vector2.down - new Vector2(this.GetComponent<BoxCollider2D>().size.x / 2, 0), groundCheckY, groundLayer))
         {
             return true;
         }
@@ -76,7 +80,9 @@ public class BaisicMovment : MonoBehaviour
     {
         //This does the same thing as grounded but checks if the players head is hitting the roof instead.
         //Used for canceling the jump.
-        if (Physics2D.Raycast(roofTransform.position, Vector2.up, roofCheckY, groundLayer) || Physics2D.Raycast(roofTransform.position + new Vector3(roofCheckX, 0), Vector2.up, roofCheckY, groundLayer) || Physics2D.Raycast(roofTransform.position + new Vector3(roofCheckX, 0), Vector2.up, roofCheckY, groundLayer))
+        if (Physics2D.Raycast(roofTransform.position, Vector2.up, roofCheckY, groundLayer) ||
+            Physics2D.Raycast(roofTransform.position + new Vector3(roofCheckX, 0), Vector2.up + new Vector2(this.GetComponent<BoxCollider2D>().size.x / 2, 0), roofCheckY, groundLayer) ||
+            Physics2D.Raycast(roofTransform.position + new Vector3(-roofCheckX, 0), Vector2.up - new Vector2(this.GetComponent<BoxCollider2D>().size.x / 2, 0), roofCheckY, groundLayer))
         {
             Debug.Log("Roofed!");
             return true;
@@ -90,7 +96,9 @@ public class BaisicMovment : MonoBehaviour
     {
         //This does the same thing as grounded but checks if the players head is hitting the roof instead.
         //Used for canceling the jump.
-        if (Physics2D.Raycast(wallTransform.position, Vector2.left, wallCheckY, groundLayer) || Physics2D.Raycast(wallTransform.position + new Vector3(wallCheckX, 0), Vector2.left, wallCheckY, groundLayer) || Physics2D.Raycast(wallTransform.position + new Vector3(wallCheckX, 0), Vector2.left, wallCheckY, groundLayer))
+        if (Physics2D.Raycast(wallTransform.position, Vector2.left, wallCheckX, groundLayer) ||
+            Physics2D.Raycast(wallTransform.position + new Vector3(wallCheckX, 0), Vector2.left + new Vector2(0, this.GetComponent<BoxCollider2D>().size.y / 2), wallCheckY, groundLayer) ||
+            Physics2D.Raycast(wallTransform.position + new Vector3(-wallCheckX, 0), Vector2.left - new Vector2(0, this.GetComponent<BoxCollider2D>().size.y / 2), wallCheckY, groundLayer))
         {
             Debug.Log("WalledL!");
             return true;
@@ -104,7 +112,9 @@ public class BaisicMovment : MonoBehaviour
     {
         //This does the same thing as grounded but checks if the players head is hitting the roof instead.
         //Used for canceling the jump.
-        if (Physics2D.Raycast(wallTransform.position, Vector2.right, wallCheckY, groundLayer) || Physics2D.Raycast(wallTransform.position + new Vector3(wallCheckX, 0), Vector2.right, wallCheckY, groundLayer) || Physics2D.Raycast(wallTransform.position + new Vector3(wallCheckX, 0), Vector2.right, wallCheckY, groundLayer))
+        if (Physics2D.Raycast(wallTransform.position, Vector2.right, wallCheckX, groundLayer) ||
+            Physics2D.Raycast(wallTransform.position + new Vector3(wallCheckX, 0), Vector2.right + new Vector2(0, this.GetComponent<BoxCollider2D>().size.y / 2), wallCheckY, groundLayer) ||
+            Physics2D.Raycast(wallTransform.position + new Vector3(-wallCheckX, 0), Vector2.right - new Vector2(0, this.GetComponent<BoxCollider2D>().size.y / 2), wallCheckY, groundLayer))
         {
             Debug.Log("WalledR!");
             return true;
