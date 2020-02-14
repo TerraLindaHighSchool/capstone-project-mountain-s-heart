@@ -15,8 +15,8 @@ TagManager:
   - 
   - 
   - groundLayer
+  - backgroundLayer
   - Camera
-  - 
   - 
   - 
   - 
@@ -47,6 +47,9 @@ TagManager:
     locked: 0
   - name: Behind Player
     uniqueID: 2022901325
+    locked: 0
+  - name: Player
+    uniqueID: 52775893
     locked: 0
   - name: In front of player
     uniqueID: 3800954385
