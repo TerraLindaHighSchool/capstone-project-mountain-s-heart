@@ -198,7 +198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundTransform: {fileID: 2349083058847254453}
-  groundCheckY: 0.2
+  groundCheckY: 0.4
   groundCheckX: 0.05
   groundLayer:
     serializedVersion: 2
