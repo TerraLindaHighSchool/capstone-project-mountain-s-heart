@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class BaisicMovment : MonoBehaviour
 {
+    [Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;
+
     [Header("Ground Checking")]
     [SerializeField] Transform groundTransform; //This is supposed to be a transform childed to the player just under their collider.
     [SerializeField] float groundCheckY = 0.2f; //How far on the Y axis the groundcheck Raycast goes.
@@ -29,6 +31,9 @@ public class BaisicMovment : MonoBehaviour
     private Rigidbody2D rb;
     public Animator animator;
 
+    private Vector2 m_Velocity = Vector2.zero;
+    private Vector2 frictionL;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -38,6 +43,7 @@ public class BaisicMovment : MonoBehaviour
     //need more methods
     void Update()
     {
+
         animator.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
 
         if (Input.GetKeyDown(KeyCode.W) && Grounded())
@@ -47,16 +53,19 @@ public class BaisicMovment : MonoBehaviour
 
         if (Input.GetKey(KeyCode.D) )
         {
-            rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
+            Vector2 targetVelocity = new Vector2(moveSpeed, rb.velocity.y);
+            rb.velocity = Vector2.SmoothDamp(rb.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
         }
 
 
         if (Input.GetKey(KeyCode.A))
 
         {
-            rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
+            Vector2 targetVelocity = new Vector2(-moveSpeed, rb.velocity.y);
+            rb.velocity = Vector2.SmoothDamp(rb.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
         }
         //Roofed();
+        rb.velocity = Vector2.SmoothDamp(rb.velocity, new Vector2(0, rb.velocity.y) , ref m_Velocity, m_MovementSmoothing);
     }
 
     public bool Grounded()
@@ -126,4 +135,10 @@ public class BaisicMovment : MonoBehaviour
 
 
 }
+
+// Move the character by finding the target velocity
+//Vector3 targetVelocity = new Vector2(moveSpeed * 10f, rb.velocity.y);
+// And then smoothing it out and applying it to the character
+//m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
+
 
