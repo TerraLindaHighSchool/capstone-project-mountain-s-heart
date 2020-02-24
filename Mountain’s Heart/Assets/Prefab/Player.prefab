@@ -81,7 +81,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 0.17471999
+  m_Mass: 0.17696
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -103,7 +103,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.0073634535}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -114,8 +114,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.35, y: 0.78}
-  m_EdgeRadius: 0.000001
+  m_Size: {x: 0.35, y: 0.79}
+  m_EdgeRadius: 0
 --- !u!212 &2349083058847254458
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -197,8 +197,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9224fd6ef92c9242b1d01c541f3adad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_MovementSmoothing: 0.3
   groundTransform: {fileID: 2349083058847254453}
-  groundCheckY: 0.2
+  groundCheckY: 0.4
   groundCheckX: 0.05
   groundLayer:
     serializedVersion: 2
@@ -209,7 +210,7 @@ MonoBehaviour:
   wallTransform: {fileID: 2349083058847254453}
   wallCheckY: 2.5
   wallCheckX: 2.5
-  moveSpeed: 3
+  moveSpeed: 1
   jumpHeight: 5.2
   animator: {fileID: 2349083058847254459}
 --- !u!114 &2349083058847254449
