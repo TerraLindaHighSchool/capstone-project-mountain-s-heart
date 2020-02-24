@@ -7,8 +7,8 @@ using UnityEngine.Sprites;
 public class PlayerHud : MonoBehaviour
 {
 
-    [SerializeField] private Image[] healthBar;
     [SerializeField] private Sprite[] healthState;
+    private Sprite[] healthBar = new Sprite[9];
     private GameObject player;
     private int playerHealth;
 
@@ -16,6 +16,10 @@ public class PlayerHud : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        for (int i = 0; i < 9; i++)
+        {
+            healthBar = healthState[3];
+        }
     }
 
     // Update is called once per frame
@@ -23,9 +27,6 @@ public class PlayerHud : MonoBehaviour
     {
         playerHealth = player.GetComponent<PlayerHealthController>().getHealth();
 
-        if (healthBar[playerHealth].sprite == healthState[2])
-            healthBar[playerHealth].sprite = healthState[0];
-        if (healthBar[playerHealth].sprite == healthState[4])
-                healthBar[playerHealth].sprite = healthState[2];
+       // healthBar
     }
 }

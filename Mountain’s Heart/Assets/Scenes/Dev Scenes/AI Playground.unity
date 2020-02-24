@@ -1901,7 +1901,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4644,6 +4644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9224fd6ef92c9242b1d01c541f3adad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_MovementSmoothing: 0.05
   groundTransform: {fileID: 2037116614}
   groundCheckY: 8.6
   groundCheckX: 2.5
@@ -5110,16 +5111,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e91be9ac24118284fb45e1075bcb3145, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthBar:
-  - {fileID: 40653515}
-  - {fileID: 358204233}
-  - {fileID: 962473138}
-  - {fileID: 2072856635}
-  - {fileID: 165118148}
-  - {fileID: 1564720183}
-  - {fileID: 1757775277}
-  - {fileID: 52897149}
-  - {fileID: 1457202212}
   healthState:
   - {fileID: -889020487126721471, guid: 53de74761ed70ee49a0139b4522a81d6, type: 3}
   - {fileID: -2029029398017140299, guid: 53de74761ed70ee49a0139b4522a81d6, type: 3}

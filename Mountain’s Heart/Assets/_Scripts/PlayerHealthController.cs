@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerHealthController : MonoBehaviour
 {
 
-    private int health = 9;
+    private int health = 8;
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +19,7 @@ public class PlayerHealthController : MonoBehaviour
         Debug.Log("health = " + health);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag.Equals("Enemy") && health > 0)
         {
