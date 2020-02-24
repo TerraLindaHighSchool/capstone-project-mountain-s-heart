@@ -210,7 +210,7 @@ MonoBehaviour:
   wallTransform: {fileID: 2349083058847254453}
   wallCheckY: 2.5
   wallCheckX: 2.5
-  moveSpeed: 1
+  moveSpeed: 10
   jumpHeight: 5.2
   animator: {fileID: 2349083058847254459}
 --- !u!114 &2349083058847254449
