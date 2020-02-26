@@ -197,10 +197,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9224fd6ef92c9242b1d01c541f3adad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MovementSmoothing: 0.3
+  m_MovementSmoothing: 0.18
   groundTransform: {fileID: 2349083058847254453}
   groundCheckY: 0.4
-  groundCheckX: 0.05
+  groundCheckX: 0.035
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
