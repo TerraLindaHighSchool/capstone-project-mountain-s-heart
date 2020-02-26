@@ -2,31 +2,33 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.Sprites;
+using UnityEngine.Events;
 
 public class PlayerHud : MonoBehaviour
 {
 
     [SerializeField] private Sprite[] healthState;
-    private Sprite[] healthBar = new Sprite[9];
+    [SerializeField] private Image[] healthBar;
     private GameObject player;
     private int playerHealth;
+    private int currentHealth;
 
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        for (int i = 0; i < 9; i++)
-        {
-            healthBar = healthState[3];
-        }
+        playerHealth = player.GetComponent<PlayerHealthController>().getHealth()+1;
+        currentHealth = playerHealth;
     }
 
     // Update is called once per frame
     void Update()
     {
-        playerHealth = player.GetComponent<PlayerHealthController>().getHealth();
-
-       // healthBar
+        currentHealth = player.GetComponent<PlayerHealthController>().getHealth()+1;
+        if(currentHealth != playerHealth)
+        {
+            healthBar[currentHealth].sprite = healthState[0];
+        }
+        playerHealth = currentHealth;
     }
 }

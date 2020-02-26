@@ -5117,3 +5117,13 @@ MonoBehaviour:
   - {fileID: 6323891653908422104, guid: 53de74761ed70ee49a0139b4522a81d6, type: 3}
   - {fileID: -7978487842950763541, guid: 53de74761ed70ee49a0139b4522a81d6, type: 3}
   - {fileID: -3923782921069713292, guid: 53de74761ed70ee49a0139b4522a81d6, type: 3}
+  healthBar:
+  - {fileID: 40653515}
+  - {fileID: 358204233}
+  - {fileID: 962473138}
+  - {fileID: 2072856635}
+  - {fileID: 165118148}
+  - {fileID: 1564720183}
+  - {fileID: 1757775277}
+  - {fileID: 52897149}
+  - {fileID: 1457202212}
