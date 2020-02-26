@@ -1884,6 +1884,7 @@ GameObject:
   - component: {fileID: 700775765}
   - component: {fileID: 700775764}
   - component: {fileID: 700775763}
+  - component: {fileID: 700775767}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Enemy
@@ -1977,6 +1978,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &700775767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700775762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dac6e5cdde5b4b45912f9a05002ab86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+  health: 0
 --- !u!1 &701703289
 GameObject:
   m_ObjectHideFlags: 0
@@ -4657,7 +4672,7 @@ MonoBehaviour:
   wallTransform: {fileID: 2037116614}
   wallCheckY: 2.5
   wallCheckX: 2.5
-  moveSpeed: 55
+  moveSpeed: 83.87
   jumpHeight: 145
   animator: {fileID: 2037116610}
 --- !u!95 &2037116610

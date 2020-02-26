@@ -17,17 +17,18 @@ public class PlayerHud : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        playerHealth = player.GetComponent<PlayerHealthController>().getHealth()+1;
+        playerHealth = player.GetComponent<PlayerHealthController>().getHealth();
         currentHealth = playerHealth;
     }
 
     // Update is called once per frame
     void Update()
     {
-        currentHealth = player.GetComponent<PlayerHealthController>().getHealth()+1;
+        currentHealth = player.GetComponent<PlayerHealthController>().getHealth();
         if(currentHealth != playerHealth)
         {
-            healthBar[currentHealth].sprite = healthState[0];
+            for(int i = playerHealth; i > currentHealth; i--)
+                healthBar[i].sprite = healthState[0];
         }
         playerHealth = currentHealth;
     }
