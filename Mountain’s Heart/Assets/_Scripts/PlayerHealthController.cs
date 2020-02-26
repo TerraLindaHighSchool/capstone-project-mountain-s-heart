@@ -12,7 +12,9 @@ public class PlayerHealthController : MonoBehaviour
         if (collision.gameObject.tag.Equals("Enemy") && health >= 0)
         {
             health -= collision.gameObject.GetComponent<EnemyStats>().getDamage();
+            this.gameObject.GetComponent<Rigidbody2D>().AddRelativeForce(new Vector2(-10000, 5000), ForceMode2D.Impulse);
         }
+
         if (health < -1)
             health = -1;
     }
