@@ -5,26 +5,18 @@ using UnityEngine;
 public class PlayerHealthController : MonoBehaviour
 {
 
-    private int health = 9;
+    private int health = 8;
 
-    // Start is called before the first frame update
-    void Start()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        Debug.Log("health = " + health);
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag.Equals("Enemy") && health > 0)
+        if (collision.gameObject.tag.Equals("Enemy") && health >= 0)
         {
-            health--;
+            health -= collision.gameObject.GetComponent<EnemyStats>().getDamage();
+            this.gameObject.GetComponent<Rigidbody2D>().AddRelativeForce(new Vector2(-10000, 5000), ForceMode2D.Impulse);
         }
+
+        if (health < -1)
+            health = -1;
     }
 
     public int getHealth()
