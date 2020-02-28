@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Events;
 
-public class PlayerHud : MonoBehaviour
+public class PlayerHudHealthbar : MonoBehaviour
 {
 
     [SerializeField] private Sprite[] healthState;
