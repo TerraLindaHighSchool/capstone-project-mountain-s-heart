@@ -133,7 +133,10 @@ public class BaisicMovment : MonoBehaviour
         }
     }
 
-
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Debug.Log("coll");
+    }
 }
 
 // Move the character by finding the target velocity
