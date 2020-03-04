@@ -23,4 +23,10 @@ public class PlayerHealthController : MonoBehaviour
         return health;
     }
 
+    private void Update()
+    {
+        if (health < 0)
+            Time.timeScale = 0;
+    }
+
 }
