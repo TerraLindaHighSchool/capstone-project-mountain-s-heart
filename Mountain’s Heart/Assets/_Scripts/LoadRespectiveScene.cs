@@ -7,11 +7,14 @@ public class LoadRespectiveScene : MonoBehaviour
 {
     [SerializeField] private Object scene;
 
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag.Equals("Player"))
-        {
-            SceneManager.LoadScene(scene.ToString());
-        }
+        Debug.Log("hit");
+        //if (collision.gameObject.tag.Equals("Player"))
+       // {
+            Debug.Log("on");
+            SceneManager.LoadScene(sceneName: scene.name);
+       // }
     }
 }
