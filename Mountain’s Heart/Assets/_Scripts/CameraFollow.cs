@@ -10,9 +10,12 @@ public class CameraFollow : MonoBehaviour
         public float Time;
     }
 
+    private Vector3 spot = new Vector2();
+
     [SerializeField]
     [Tooltip("The transform to follow")]
     private Transform target;
+    [SerializeField] private Vector2 minBoundary, maxBoundary;
 
     [SerializeField]
 
@@ -34,13 +37,16 @@ public class CameraFollow : MonoBehaviour
 
     void LateUpdate()
     {
+        spot.x = Mathf.Clamp(transform.position.x, minBoundary.x, maxBoundary.x);
+        spot.y = Mathf.Clamp(transform.position.y, minBoundary.y, maxBoundary.y);
+
         // Add the current target position to the list of positions
         pointsInSpace.Enqueue(new PointInSpace() { Position = target.position, Time = Time.time });
 
         // Move the camera to the position of the target X seconds ago 
         while (pointsInSpace.Count > 0 && pointsInSpace.Peek().Time <= Time.time - delay + Mathf.Epsilon)
         {
-            transform.position = Vector3.Lerp(transform.position, pointsInSpace.Dequeue().Position + offset, Time.deltaTime * speed);
+            transform.position = Vector3.Lerp(spot + offset, pointsInSpace.Dequeue().Position + offset, Time.deltaTime * speed);
         }
     }
 }
