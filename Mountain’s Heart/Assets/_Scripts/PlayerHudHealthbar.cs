@@ -6,6 +6,7 @@ using UnityEngine.Events;
 
 public class PlayerHudHealthbar : MonoBehaviour
 {
+/*
     [SerializeField] private Sprite[] healthState;
     [SerializeField] private Image[] healthBar;
     private GameObject player;
@@ -31,4 +32,5 @@ public class PlayerHudHealthbar : MonoBehaviour
         }
         playerHealth = currentHealth;
     }
+    */
 }

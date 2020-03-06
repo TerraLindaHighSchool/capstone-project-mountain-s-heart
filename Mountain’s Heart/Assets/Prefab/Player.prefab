@@ -766,8 +766,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 2349083058847254453}
-  minBoundary: {x: 0, y: 0}
-  maxBoundary: {x: 0, y: 0}
   offset: {x: 0, y: 0, z: -6}
   delay: 0
   speed: 5
@@ -929,22 +927,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e91be9ac24118284fb45e1075bcb3145, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthState:
-  - {fileID: -889020487126721471, guid: 53de74761ed70ee49a0139b4522a81d6, type: 3}
-  - {fileID: -2029029398017140299, guid: 53de74761ed70ee49a0139b4522a81d6, type: 3}
-  - {fileID: 6323891653908422104, guid: 53de74761ed70ee49a0139b4522a81d6, type: 3}
-  - {fileID: -7978487842950763541, guid: 53de74761ed70ee49a0139b4522a81d6, type: 3}
-  - {fileID: -3923782921069713292, guid: 53de74761ed70ee49a0139b4522a81d6, type: 3}
-  healthBar:
-  - {fileID: 5730368700793128314}
-  - {fileID: 5158016427509634821}
-  - {fileID: 1419389739492116468}
-  - {fileID: 2334892464735597262}
-  - {fileID: 4522698696364229082}
-  - {fileID: 1979085399377085066}
-  - {fileID: 3167774857489189723}
-  - {fileID: 2326256819613060405}
-  - {fileID: 2059277138979890735}
 --- !u!1 &5666939239091666672
 GameObject:
   m_ObjectHideFlags: 0

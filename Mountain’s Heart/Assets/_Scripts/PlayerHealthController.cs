@@ -1,13 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PlayerHealthController : MonoBehaviour
 {
 
     private int health = 8;
-    [SerializeField] FadeCamera fader;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -17,9 +15,7 @@ public class PlayerHealthController : MonoBehaviour
         }
 
         if (health < -1)
-        {
             health = -1;
-        }
     }
 
     public int getHealth()
@@ -30,11 +26,7 @@ public class PlayerHealthController : MonoBehaviour
     private void Update()
     {
         if (health < 0)
-        {
-            fader.setFadeOut(true);
-            if (fader.isBlek())
-                SceneManager.LoadScene(sceneName: "Main Menu");
-        }
+            Time.timeScale = 0;
     }
 
 }
