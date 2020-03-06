@@ -8,23 +8,23 @@ public class LoadRespectiveScene : MonoBehaviour
 {
     [SerializeField] private Object scene;
     [SerializeField] FadeCamera fader;
+    private bool load;
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("col check");
-        //if (collision.gameObject.tag.Equals("Player"))
-        //{
-            Debug.Log("col work");
-            fader.setTurnBlek(true);
-       // }
+        if (collision.gameObject.tag.Equals("Player"))
+        {
+            fader.setFadeOut(true);
+            load = true;
+        }
     }
 
     private void Update()
     {
-        if (fader.isBlek())
+        if (fader.isBlek() && load == true)
         {
-            Debug.Log("black");
             SceneManager.LoadScene(sceneName: scene.name);
+            load = false;
         }
     }
 }
