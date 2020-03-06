@@ -9,38 +9,38 @@ public class FadeCamera : MonoBehaviour
     [SerializeField] private Image blackScreen;
     private float currentAlpha;
     private bool blek = false;
-    private bool fadeOut = false;
-    private bool fadeIn = false;
+    private bool turnBlek = false;
+    private bool turnKlere = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        fadeIn = true;
+        turnKlere = true;
         blackScreen.enabled = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (fadeOut)
+        if (turnBlek)
         {
             currentAlpha = blackScreen.color.a;
             blackScreen.color = new Color(0, 0, 0, currentAlpha + 0.02f);
             if (blackScreen.color.a >= 1)
             {
                 blek = true;
-                fadeOut = false;
+                turnBlek = false;
             }
         }
 
-        if (fadeIn)
+        if (turnKlere)
         {
             currentAlpha = blackScreen.color.a;
             blackScreen.color = new Color(0, 0, 0, currentAlpha - 0.02f);
             if (blackScreen.color.a <= 0)
             {
                 blek = false;
-                fadeIn = false;
+                turnKlere = false;
             }
         }
     }
@@ -52,9 +52,15 @@ public class FadeCamera : MonoBehaviour
         return blek;
     }
 
-    public void setFadeOut(bool lol)
+    public void setTurnBlek(bool lol)
     {
         
-        fadeOut = lol;
+        turnBlek = lol;
+    }
+
+    public void setTurnKlere(bool lol)
+    {
+        turnKlere = lol;
+
     }
 }
