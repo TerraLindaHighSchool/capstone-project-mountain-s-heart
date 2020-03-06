@@ -58,3 +58,6 @@ TagManager:
   - name: Foreground
     uniqueID: 2880019115
     locked: 0
+  - name: Wire
+    uniqueID: 109833065
+    locked: 0
