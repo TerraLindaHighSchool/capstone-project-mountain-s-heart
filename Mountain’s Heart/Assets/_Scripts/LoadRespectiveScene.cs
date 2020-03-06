@@ -11,15 +11,20 @@ public class LoadRespectiveScene : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag.Equals("Player"))
-        {
+        Debug.Log("col check");
+        //if (collision.gameObject.tag.Equals("Player"))
+        //{
+            Debug.Log("col work");
             fader.setTurnBlek(true);
-        }
+       // }
     }
 
     private void Update()
     {
         if (fader.isBlek())
+        {
+            Debug.Log("black");
             SceneManager.LoadScene(sceneName: scene.name);
+        }
     }
 }

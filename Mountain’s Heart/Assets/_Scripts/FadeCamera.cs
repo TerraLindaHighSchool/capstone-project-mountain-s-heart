@@ -48,11 +48,13 @@ public class FadeCamera : MonoBehaviour
 
     public bool isBlek()
     {
+        
         return blek;
     }
 
     public void setTurnBlek(bool lol)
     {
+        
         turnBlek = lol;
     }
 
