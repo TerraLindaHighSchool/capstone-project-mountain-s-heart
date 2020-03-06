@@ -11,12 +11,10 @@ public class LoadRespectiveScene : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("col check");
-        //if (collision.gameObject.tag.Equals("Player"))
-        //{
-            Debug.Log("col work");
-            fader.setTurnBlek(true);
-       // }
+        if (collision.gameObject.tag.Equals("Player"))
+        {
+            fader.setFadeOut(true);
+        }
     }
 
     private void Update()
