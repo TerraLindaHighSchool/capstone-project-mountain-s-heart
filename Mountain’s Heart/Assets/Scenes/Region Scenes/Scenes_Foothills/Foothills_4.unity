@@ -11002,21 +11002,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 694990410657456037, guid: 84d00e55778612d40b8a9fd728cc6afe,
-        type: 3}
-      propertyPath: m_MaskInteraction
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 694990410657456037, guid: 84d00e55778612d40b8a9fd728cc6afe,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 694990410657456037, guid: 84d00e55778612d40b8a9fd728cc6afe,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 996990238104395318, guid: 84d00e55778612d40b8a9fd728cc6afe,
         type: 3}
       propertyPath: m_Tiles.Array.size
