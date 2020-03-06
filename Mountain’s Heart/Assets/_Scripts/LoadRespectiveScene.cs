@@ -9,7 +9,7 @@ public class LoadRespectiveScene : MonoBehaviour
     [SerializeField] private Object scene;
     [SerializeField] FadeCamera fader;
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("col check");
         //if (collision.gameObject.tag.Equals("Player"))
