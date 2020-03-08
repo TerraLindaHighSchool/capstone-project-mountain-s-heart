@@ -30,16 +30,14 @@ public class EnemyMovment : MonoBehaviour
         {
             moveSpeed *= -1;
             transform.Rotate(0, 180, 0);
-            transform.position = new Vector3(transform.position.x + moveSpeed/100, transform.position.y, transform.position.z);
+            transform.position = new Vector3(transform.position.x + moveSpeed/10, transform.position.y, transform.position.z);
         }
     }
 
     public bool Walled()
     {
-        Debug.Log("Check");
         if (Physics2D.Raycast(groundTransform.position, Vector2.left, wallCheckX, groundLayer) || Physics2D.Raycast(groundTransform.position, Vector2.right, wallCheckX, groundLayer))
         {
-            Debug.Log("WalledL");
             return true;
         }
         else
