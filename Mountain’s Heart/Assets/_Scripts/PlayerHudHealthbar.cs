@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 public class PlayerHudHealthbar : MonoBehaviour
 {
-/*
+
     [SerializeField] private Sprite[] healthState;
     [SerializeField] private Image[] healthBar;
     private GameObject player;
@@ -27,10 +27,10 @@ public class PlayerHudHealthbar : MonoBehaviour
         currentHealth = player.GetComponent<PlayerHealthController>().getHealth();
         if(currentHealth != playerHealth)
         {
-            for(int i = playerHealth; i > currentHealth; i--)
-                healthBar[i].sprite = healthState[0];
+            Debug.Log(playerHealth);
+            //for(int i = playerHealth; i > currentHealth; i--)
+                healthBar[playerHealth].sprite = healthState[4];
         }
         playerHealth = currentHealth;
     }
-    */
 }
