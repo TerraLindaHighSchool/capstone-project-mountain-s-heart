@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Region Scenes/Scenes_Foothills/Foothills_1.unity
     guid: 50c5aeb7db000fa49b03a941b2bc456f
   - enabled: 1
-    path: Assets/Scenes/Region Scenes/Scenes_Foothills/Foothills_2.unity
+    path: Assets/Scenes/Region Scenes/Scenes_Foothills/w.unity
     guid: b950319a6b923dd448b083e21edf1133
   - enabled: 1
     path: Assets/Scenes/Region Scenes/Scenes_Foothills/Foothills_3.unity
