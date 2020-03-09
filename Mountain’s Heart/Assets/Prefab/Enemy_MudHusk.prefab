@@ -3,8 +3,7 @@
 --- !u!1 &3711715548930750277
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3515741965471966268, guid: 354e810ccbde8c543be7cd72fb7b5534,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
@@ -14,9 +13,10 @@ GameObject:
   - component: {fileID: 3711715548930750279}
   - component: {fileID: 6270627247580511953}
   - component: {fileID: 2355214714428997564}
+  - component: {fileID: 4037096143963467413}
   m_Layer: 0
   m_Name: Enemy_MudHusk
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24,8 +24,7 @@ GameObject:
 --- !u!4 &3711715548930750276
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4581328155427040666, guid: 354e810ccbde8c543be7cd72fb7b5534,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3711715548930750277}
@@ -39,8 +38,7 @@ Transform:
 --- !u!212 &3711715548930750278
 SpriteRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6121843461388104855, guid: 354e810ccbde8c543be7cd72fb7b5534,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3711715548930750277}
@@ -72,8 +70,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1414948181
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 6681424629524987106, guid: 0aa63d58cdbd770449a4dc88bc86bd7f,
     type: 3}
@@ -91,8 +89,7 @@ SpriteRenderer:
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7508097302592715670, guid: 354e810ccbde8c543be7cd72fb7b5534,
-    type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3711715548930750277}
@@ -154,3 +151,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4037096143963467413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3711715548930750277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b065b00629c1784e912b7a3217d8627, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundTransform: {fileID: 0}
+  wallCheckX: 1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  m_MovementSmoothing: 0.05
+  moveSpeed: 0
