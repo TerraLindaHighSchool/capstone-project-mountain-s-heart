@@ -11,19 +11,16 @@ public class LoadRespectiveScene : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("col check");
-        //if (collision.gameObject.tag.Equals("Player"))
-        //{
-            Debug.Log("col work");
-            fader.setTurnBlek(true);
-       // }
+        if (collision.gameObject.tag.Equals("Player"))
+        {
+            fader.setFadeOut(true);
+        }
     }
 
     private void Update()
     {
         if (fader.isBlek())
         {
-            Debug.Log("black");
             SceneManager.LoadScene(sceneName: scene.name);
         }
     }
