@@ -27,7 +27,6 @@ public class PlayerHudHealthbar : MonoBehaviour
         currentHealth = player.GetComponent<PlayerHealthController>().getHealth();
         if(currentHealth != playerHealth)
         {
-            Debug.Log(playerHealth);
             //for(int i = playerHealth; i > currentHealth; i--)
                 healthBar[playerHealth].sprite = healthState[4];
         }
