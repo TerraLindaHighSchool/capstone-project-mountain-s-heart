@@ -7,7 +7,9 @@ public class PlayerHealthController : MonoBehaviour
 {
 
     private int health = 8;
-    public Rigidbody2D rb;
+    private Rigidbody2D rb;
+    private Vector2 recoil;
+    [SerializeField] float recoilModifier = 30;
 
     private void Start()
     {
@@ -19,7 +21,9 @@ public class PlayerHealthController : MonoBehaviour
         if (collision.gameObject.GetComponent<EnemyStats>() != null)
         {
             health -= collision.gameObject.GetComponent<EnemyStats>().getDamage();
-            GetComponent<Rigidbody2D>().AddForce(Vector2.up * 15.0f);
+            recoil = new Vector2(recoilModifier * (this.transform.position.x - collision.gameObject.transform.position.x),
+                                    recoilModifier * (this.transform.position.y - collision.gameObject.transform.position.y));
+            GetComponent<Rigidbody2D>().AddForce(recoil);
 
             if (health < -1)
                 health = -1;
