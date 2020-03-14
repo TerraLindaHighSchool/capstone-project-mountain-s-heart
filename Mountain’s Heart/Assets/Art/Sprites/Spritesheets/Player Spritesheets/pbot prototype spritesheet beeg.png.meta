@@ -1,0 +1,1135 @@
+fileFormatVersion: 2
+guid: 511b519477da142409489b82ed7753dd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6599595152099324900
+    second: pbot prototype spritesheet beeg_0
+  - first:
+      213: -4235125441041836286
+    second: pbot prototype spritesheet beeg_1
+  - first:
+      213: 5586473618274365598
+    second: pbot prototype spritesheet beeg_2
+  - first:
+      213: 9146567976716994520
+    second: pbot prototype spritesheet beeg_3
+  - first:
+      213: 130443408661830619
+    second: pbot prototype spritesheet beeg_4
+  - first:
+      213: 5038021829659534213
+    second: pbot prototype spritesheet beeg_5
+  - first:
+      213: 1134514794126429189
+    second: pbot prototype spritesheet beeg_6
+  - first:
+      213: 7205078666459908792
+    second: pbot prototype spritesheet beeg_7
+  - first:
+      213: 689698606914821095
+    second: pbot prototype spritesheet beeg_8
+  - first:
+      213: 7864799811375743172
+    second: pbot prototype spritesheet beeg_9
+  - first:
+      213: -8850256339620145998
+    second: pbot prototype spritesheet beeg_10
+  - first:
+      213: 1738551836175425249
+    second: pbot prototype spritesheet beeg_11
+  - first:
+      213: 2890012153283318453
+    second: pbot prototype spritesheet beeg_12
+  - first:
+      213: 3031703327508977037
+    second: pbot prototype spritesheet beeg_13
+  - first:
+      213: 1963164007745158724
+    second: pbot prototype spritesheet beeg_14
+  - first:
+      213: -2547935342473747264
+    second: pbot prototype spritesheet beeg_15
+  - first:
+      213: 6351317438155938965
+    second: pbot prototype spritesheet beeg_16
+  - first:
+      213: -7932058110383591703
+    second: pbot prototype spritesheet beeg_17
+  - first:
+      213: -7209152174623375617
+    second: pbot prototype spritesheet beeg_18
+  - first:
+      213: 5450087862940195740
+    second: pbot prototype spritesheet beeg_19
+  - first:
+      213: -449686344673362681
+    second: pbot prototype spritesheet beeg_20
+  - first:
+      213: -5197045677396508665
+    second: pbot prototype spritesheet beeg_21
+  - first:
+      213: -832144158588880052
+    second: pbot prototype spritesheet beeg_22
+  - first:
+      213: 942499575187408677
+    second: pbot prototype spritesheet beeg_23
+  - first:
+      213: 8945112993792149642
+    second: pbot prototype spritesheet beeg_24
+  - first:
+      213: -316221549592346935
+    second: pbot prototype spritesheet beeg_25
+  - first:
+      213: 2637407469641494421
+    second: pbot prototype spritesheet beeg_26
+  - first:
+      213: 2633736116414125898
+    second: pbot prototype spritesheet beeg_27
+  - first:
+      213: -3311419426954799570
+    second: pbot prototype spritesheet beeg_28
+  - first:
+      213: -1091048752498504780
+    second: pbot prototype spritesheet beeg_29
+  - first:
+      213: 1391150833344254053
+    second: pbot prototype spritesheet beeg_30
+  - first:
+      213: 4990178483835081806
+    second: pbot prototype spritesheet beeg_31
+  - first:
+      213: -4937048457212288686
+    second: pbot prototype spritesheet beeg_32
+  - first:
+      213: 8807670157463556517
+    second: pbot prototype spritesheet beeg_33
+  - first:
+      213: -8557406517932785557
+    second: pbot prototype spritesheet beeg_34
+  - first:
+      213: -3486222313877868262
+    second: pbot prototype spritesheet beeg_35
+  - first:
+      213: -3015630834180855255
+    second: pbot prototype spritesheet beeg_36
+  - first:
+      213: -3244792030951668026
+    second: pbot prototype spritesheet beeg_37
+  - first:
+      213: 1935093955101091607
+    second: pbot prototype spritesheet beeg_38
+  - first:
+      213: 2357245791947124173
+    second: pbot prototype spritesheet beeg_39
+  - first:
+      213: -1863869764354062559
+    second: pbot prototype spritesheet beeg_40
+  - first:
+      213: 5351481985410800091
+    second: pbot prototype spritesheet beeg_41
+  - first:
+      213: -8059147667033521738
+    second: pbot prototype spritesheet beeg_42
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 792
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e744530585ca34fb10605098bca94d
+      internalID: 6599595152099324900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 792
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae57e32f88d4684c869b43e5e3c7dac
+      internalID: -4235125441041836286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_2
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 792
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d5bceb585070744aae5e398783bf55
+      internalID: 5586473618274365598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_3
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 792
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31e34adbc11e6343812c096e70d4533
+      internalID: 9146567976716994520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_4
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 792
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcefb01365cebc40938e2e65637867a
+      internalID: 130443408661830619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_5
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 792
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff9cc98178c5584b83c0ab8b42d528b
+      internalID: 5038021829659534213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_6
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 792
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b10f58c2bbaf9947aa38859ad044d08
+      internalID: 1134514794126429189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 664
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b29b3b9bf6d2924e869ea3b10771a8f
+      internalID: 7205078666459908792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_8
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 664
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cca138ec3629246be8c4020be0ad3b
+      internalID: 689698606914821095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 664
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ac3e1cdda75d2459f1213514ffcb41
+      internalID: 7864799811375743172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_10
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 664
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f4dfe1b22198e479419131765230c6
+      internalID: -8850256339620145998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_11
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 664
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f469cfa054904c64abc7b63dfca59364
+      internalID: 1738551836175425249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_12
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 664
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3bf301819a6c34c90fe16009ff5cc9
+      internalID: 2890012153283318453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_13
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 664
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53f5dea97ba86c4f9385211a15263f0
+      internalID: 3031703327508977037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_14
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 536
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a86f342ec318714782852554d6b67c7
+      internalID: 1963164007745158724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_15
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 536
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fed8e0915e51947be553f98c527523
+      internalID: -2547935342473747264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_16
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 536
+        width: 48
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c870e18fdcddeb4babf56570521eccf
+      internalID: 6351317438155938965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_17
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 536
+        width: 48
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a63c80a7d43be049bee237ef53797d5
+      internalID: -7932058110383591703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_18
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 536
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffd12f86c12f354b8c82ab580c8c874
+      internalID: -7209152174623375617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_19
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 536
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f1c148721f2aa419a154fd29e2326e
+      internalID: 5450087862940195740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_20
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 536
+        width: 48
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb35e290ceb59b43bbcbc048c0a7c39
+      internalID: -449686344673362681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_21
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 408
+        width: 48
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f24ab0843c2534b95dc6f3c8fdff34
+      internalID: -5197045677396508665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_22
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 408
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60564ddfc4703f348a17a200fb4329f3
+      internalID: -832144158588880052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_23
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 408
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fda25d916dc4b140acb478ac79dc854
+      internalID: 942499575187408677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_24
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 408
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da39f004732109499d429ae7182a42d
+      internalID: 8945112993792149642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_25
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 408
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cd07c6c6cfa5e4884910bfd2ec2ba4
+      internalID: -316221549592346935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_26
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 408
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eada0b6f014bba498d7036c8457ca71
+      internalID: 2637407469641494421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_27
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 408
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3890b7644ad4bbb47911a82af31a0387
+      internalID: 2633736116414125898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_28
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 280
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e03c96ec491193429a365c9b7769224
+      internalID: -3311419426954799570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_29
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 280
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268422781dbe67949b21dc25d6f1ed37
+      internalID: -1091048752498504780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_30
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 280
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1172294b57a565546bba5e1553bd53c8
+      internalID: 1391150833344254053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_31
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 280
+        width: 44
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d0c37b9359d4c4887113f63ee05baa
+      internalID: 4990178483835081806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_32
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 280
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a3d0c558c2ac24bbc92d83a5eeab66
+      internalID: -4937048457212288686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_33
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 280
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cfbd04b7b558f4da9451c56f31afd7
+      internalID: 8807670157463556517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_34
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 280
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107b6ec92a013844c98a8957c19c3ccc
+      internalID: -8557406517932785557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_35
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 152
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a142bf98f024996498f0dc3867367d92
+      internalID: -3486222313877868262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_36
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 152
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e958cdfa0dae884c81e244bc558eb03
+      internalID: -3015630834180855255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_37
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 152
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb26c603cb18754a90fbc52d8b5cbd6
+      internalID: -3244792030951668026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_38
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 152
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b71e9a9a4f1054bb76f42d18cc3a45
+      internalID: 1935093955101091607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_39
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 152
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddba204d6c3ce1a4092b5554c1fa9586
+      internalID: 2357245791947124173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_40
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 152
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07100edfdcb89549b71ce4b477d880d
+      internalID: -1863869764354062559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_41
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 152
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049a06a8d88a19346b2e2d3323ddf660
+      internalID: 5351481985410800091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pbot prototype spritesheet beeg_42
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 24
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad954b4f80cd4f54cb712b2915c76d25
+      internalID: -8059147667033521738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
