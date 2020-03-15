@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6270627247580511953}
   - component: {fileID: 2355214714428997564}
   - component: {fileID: 4037096143963467413}
+  - component: {fileID: 2514129292724287919}
   m_Layer: 0
   m_Name: Enemy_MudHusk
   m_TagString: Enemy
@@ -170,3 +171,17 @@ MonoBehaviour:
     m_Bits: 0
   m_MovementSmoothing: 0.05
   moveSpeed: 0
+--- !u!114 &2514129292724287919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3711715548930750277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dac6e5cdde5b4b45912f9a05002ab86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+  health: 0
