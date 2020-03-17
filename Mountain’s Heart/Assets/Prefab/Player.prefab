@@ -811,7 +811,7 @@ MonoBehaviour:
   wallCheckY: 2.5
   wallCheckX: 2.5
   moveSpeed: 7
-  jumpHeight: 5.2
+  jumpHeight: 5.3
   animator: {fileID: 2349083058847254459}
 --- !u!114 &2349083058847254449
 MonoBehaviour:
