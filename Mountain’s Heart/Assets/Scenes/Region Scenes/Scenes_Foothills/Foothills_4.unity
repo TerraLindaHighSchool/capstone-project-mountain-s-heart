@@ -16133,6 +16133,11 @@ PrefabInstance:
       propertyPath: moveSpeed
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 2349083058847254453, guid: 32afd34d682f9bb4290256c0058bbf27,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.16
+      objectReference: {fileID: 0}
     - target: {fileID: 2349083058847254455, guid: 32afd34d682f9bb4290256c0058bbf27,
         type: 3}
       propertyPath: m_EdgeRadius
@@ -16141,12 +16146,17 @@ PrefabInstance:
     - target: {fileID: 2349083058850090931, guid: 32afd34d682f9bb4290256c0058bbf27,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -443.896
+      value: -449.056
       objectReference: {fileID: 0}
     - target: {fileID: 2349083058850090931, guid: 32afd34d682f9bb4290256c0058bbf27,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: -240.6451
+      objectReference: {fileID: 0}
+    - target: {fileID: 6625505042395120398, guid: 32afd34d682f9bb4290256c0058bbf27,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -449.056
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32afd34d682f9bb4290256c0058bbf27, type: 3}
