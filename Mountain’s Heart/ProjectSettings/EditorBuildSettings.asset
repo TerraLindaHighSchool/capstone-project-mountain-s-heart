@@ -12,12 +12,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Region Scenes/Scenes_Foothills/Foothills_1.unity
     guid: 50c5aeb7db000fa49b03a941b2bc456f
   - enabled: 1
-    path: Assets/Scenes/Region Scenes/Scenes_Foothills/w.unity
-    guid: b950319a6b923dd448b083e21edf1133
+    path: Assets/Scenes/Region Scenes/Scenes_Foothills/Foothills_2.unity
+    guid: f2e2dc0004ea9a94c971e2cc25a4a2ce
   - enabled: 1
     path: Assets/Scenes/Region Scenes/Scenes_Foothills/Foothills_3.unity
-    guid: 99b1c05b0f8a8a1489b9efa8a3dd69fa
+    guid: c0a17223bf1530e439e050be53a319bf
   - enabled: 1
     path: Assets/Scenes/Region Scenes/Scenes_Foothills/Foothills_4.unity
     guid: 955369d6338a7f647a40496e34b04d58
+  - enabled: 1
+    path: Assets/Scenes/Region Scenes/Scenes_Foothills/Foothills_5.unity
+    guid: 7330e4278ea89f546a254adea87ff53e
+  - enabled: 1
+    path: Assets/Scenes/Region Scenes/Scenes_Foothills/Foothills_6.unity
+    guid: e55ef86e5a53eda42b70fa945b973697
+  - enabled: 1
+    path: Assets/Scenes/Region Scenes/Scenes_Foothills/Foothills_7.unity
+    guid: 46744e5130d8c054e81350bab646615c
   m_configObjects: {}
