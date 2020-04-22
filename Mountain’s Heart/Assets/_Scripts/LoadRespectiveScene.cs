@@ -9,9 +9,16 @@ public class LoadRespectiveScene : MonoBehaviour
     [SerializeField] private Object scene;
     public Animator transition;
     public float transitionTime = 1f;
+    public Vector2 spawnPos;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+
+        if(spawnPos.x != 0 || spawnPos.y != 0)
+        {
+            SavedVariables.setSpawnPos(spawnPos);
+        }
+
         if (collision.gameObject.tag.Equals("Player"))
         {
             StartCoroutine(LoadLevel());
