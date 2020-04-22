@@ -18,13 +18,6 @@ public class LoadRespectiveScene : MonoBehaviour
         }
     }
 
-    public void LoadNextLevel()
-    {
-        //Debug.Log(SceneManager.GetActiveScene().buildIndex);
-       // Debug.Log(SceneManager.GetSceneByName(scene.name).buildIndex);
-        //StartCoroutine(LoadLevel(SceneManager.g(scene.name).buildIndex));
-    }
-
     IEnumerator LoadLevel()
     {
         Debug.Log(SceneManager.GetActiveScene().buildIndex);
