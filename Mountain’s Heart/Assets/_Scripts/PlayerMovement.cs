@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovment : MonoBehaviour
 {
     [Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;
 
@@ -23,8 +23,8 @@ public class PlayerMovement : MonoBehaviour
     public bool isDashing;
 
     private Collision coll;
+    public Animator anim;
     [HideInInspector]
-    private PlayerAnimation anim;
     public Rigidbody2D rb;
 
     private Vector2 m_Velocity = Vector2.zero;
@@ -34,11 +34,14 @@ public class PlayerMovement : MonoBehaviour
     {
         coll = GetComponent<Collision>();
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponentInChildren<PlayerAnimation>();
     }
 
+    //updates for movment
+    //need more methods
     void Update()
     {
+
+        anim.SetFloat("Horizontal", Input.GetAxis("Horizontal"));
 
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
@@ -47,12 +50,10 @@ public class PlayerMovement : MonoBehaviour
         Vector2 dir = new Vector2(x, y);
 
         Walk(dir);
-        anim.SetHorizontalMovement(x, y, rb.velocity.y);
-
 
         if (Input.GetButtonDown("Jump"))
         {
-            anim.SetTrigger("jump");
+            //anim.SetTrigger("jump");
 
             if (coll.onGround)
                 Jump(Vector2.up, false);
@@ -83,7 +84,15 @@ public class PlayerMovement : MonoBehaviour
         canMove = true;
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        //Debug.Log("coll");
+    }
 }
 
+// Move the character by finding the target velocity
+//Vector3 targetVelocity = new Vector2(moveSpeed * 10f, rb.velocity.y);
+// And then smoothing it out and applying it to the character
+//m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
 
 
