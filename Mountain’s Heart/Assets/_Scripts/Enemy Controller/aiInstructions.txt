@@ -1,0 +1,7 @@
+1. Create gameobject
+2. Place EnemyDamage Controller on desired gameobject
+3. Place AIController
+4. All variables should be pretty slef explanetory
+5. You might want to freeze the Z rotation of the rigid body
+
+You can look at the AI Playground to see examples of the ai
