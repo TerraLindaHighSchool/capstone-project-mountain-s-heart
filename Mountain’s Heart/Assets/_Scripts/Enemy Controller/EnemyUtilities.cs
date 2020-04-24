@@ -102,8 +102,8 @@ public class EnemyUtilities : MonoBehaviour
     [HideInInspector] public bool grounded = true;
     public bool approachingDrop()
     {
-        bool right = !Physics2D.Linecast(transform.position + Vector3.right * groundCheck.x, (transform.position + Vector3.right * groundCheck.x) + Vector3.down * groundCheck.y);
-        bool left = !Physics2D.Linecast(transform.position + Vector3.left * groundCheck.x, (transform.position + Vector3.left * groundCheck.x) + Vector3.down * groundCheck.y);
+        bool right = !Physics2D.Linecast(transform.position + Vector3.right * groundCheck.x, (transform.position + Vector3.right * groundCheck.x) + Vector3.down * groundCheck.y, groundLayer);
+        bool left = !Physics2D.Linecast(transform.position + Vector3.left * groundCheck.x, (transform.position + Vector3.left * groundCheck.x) + Vector3.down * groundCheck.y, groundLayer);
 
         if (left || right)
             grounded = false;

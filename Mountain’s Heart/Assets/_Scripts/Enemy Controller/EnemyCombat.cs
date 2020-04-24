@@ -29,7 +29,7 @@ public class EnemyCombat : MonoBehaviour
 
     public void Chase()
     {
-        if (util.distToPlayer > util.agressionRange)
+        if (!util.playerFound())
             StartCoroutine(util.CombatCoolDown(coolDownTime));
 
         if(!util.playerObscured() || ignoreTerrain)

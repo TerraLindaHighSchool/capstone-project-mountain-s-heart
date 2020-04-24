@@ -4,4 +4,6 @@
 4. All variables should be pretty slef explanetory
 5. You might want to freeze the Z rotation of the rigid body
 
+All enemies MUST start facing left, otherwise Horz Speed must be negative (which is kinda weird)
+
 You can look at the AI Playground to see examples of the ai
