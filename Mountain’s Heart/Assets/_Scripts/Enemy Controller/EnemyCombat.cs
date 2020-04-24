@@ -51,7 +51,7 @@ public class EnemyCombat : MonoBehaviour
             transform.eulerAngles = new Vector3(0, -180, 0);
         }
 
-        if (Vector2.Distance(transform.position, playerPos) < 0.5 && util.playerObscured())
+        if (Vector2.Distance(transform.position, playerPos) < 0.5 && util.playerObscured() && !ignoreTerrain)
             util.rb.velocity = Vector2.zero;
 
         if (checkForDrops)
