@@ -32,12 +32,13 @@ public class EnemyCombat : MonoBehaviour
         if (util.distToPlayer > util.agressionRange)
             StartCoroutine(util.CombatCoolDown(coolDownTime));
 
-        playerPos = util.player.transform.position;
+        if(!util.playerObscured() || ignoreTerrain)
+            playerPos = util.player.transform.position;
 
         Vector2 targetVelocity = new Vector2(util.horzSpeed * attackMoveSpeedMod.x, util.rb.velocity.y);
         util.rb.velocity = Vector2.SmoothDamp(util.rb.velocity, targetVelocity, ref util.m_Velocity, util.m_VertMovementSmoothing);
 
-        if (playerPos.x - transform.position.x < 0 && util.movingRight)
+        if ((playerPos.x - transform.position.x < 0) && util.movingRight)
         {
             util.horzSpeed *= -1;
             util.movingRight = false;
@@ -49,6 +50,9 @@ public class EnemyCombat : MonoBehaviour
             util.movingRight = true;
             transform.eulerAngles = new Vector3(0, -180, 0);
         }
+
+        if (Vector2.Distance(transform.position, playerPos) < 0.5 && util.playerObscured())
+            util.rb.velocity = Vector2.zero;
 
         if (checkForDrops)
         {

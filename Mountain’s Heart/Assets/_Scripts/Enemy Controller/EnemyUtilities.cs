@@ -150,8 +150,7 @@ public class EnemyUtilities : MonoBehaviour
     {
         if (distToPlayer <= agressionRange && angleToPlayer <= fieldOfView)
         {
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, player.transform.position - transform.position);
-            if (hit.collider.gameObject.tag.Equals("Player"))
+            if(!playerObscured())
                 return true;
             else
                 return false;
@@ -160,6 +159,15 @@ public class EnemyUtilities : MonoBehaviour
         {
             return false;
         }
+    }
+
+    public bool playerObscured()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, player.transform.position - transform.position);
+        if (!hit.collider.gameObject.tag.Equals("Player"))
+            return true;
+        else
+            return false;
     }
     #endregion
 

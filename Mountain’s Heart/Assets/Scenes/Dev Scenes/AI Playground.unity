@@ -483,6 +483,11 @@ PrefabInstance:
       propertyPath: hoverHeight
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3230609712309559275, guid: 2d8876d84ec9fbc4c9a014559a8d8576,
+        type: 3}
+      propertyPath: coolDownTime
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 3487390099960361002, guid: 2d8876d84ec9fbc4c9a014559a8d8576,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3496,7 +3501,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1182178189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3813,6 +3818,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_MudHusk (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3711715548930750277, guid: 354e810ccbde8c543be7cd72fb7b5534,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8257748999878802436, guid: 354e810ccbde8c543be7cd72fb7b5534,
         type: 3}
       propertyPath: player
@@ -4019,7 +4029,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!70 &2009968051
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -4306,6 +4316,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_MudHusk
       objectReference: {fileID: 0}
+    - target: {fileID: 3711715548930750277, guid: 354e810ccbde8c543be7cd72fb7b5534,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8257748999878802436, guid: 354e810ccbde8c543be7cd72fb7b5534,
         type: 3}
       propertyPath: player
@@ -4394,6 +4409,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bat
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487390099960361003, guid: 2d8876d84ec9fbc4c9a014559a8d8576,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8178098798825487210, guid: 2d8876d84ec9fbc4c9a014559a8d8576,
         type: 3}
