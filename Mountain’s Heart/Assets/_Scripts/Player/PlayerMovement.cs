@@ -21,10 +21,12 @@ public class PlayerMovement : MonoBehaviour
     public bool wallJumped;
     public bool wallSlide;
     public bool isDashing;
+    public bool isShooting;
 
     private Collision coll;
     [HideInInspector]
     private PlayerAnimation anim;
+    private PrefabWeapon weapon;
     public Rigidbody2D rb;
 
     private Vector2 m_Velocity = Vector2.zero;
@@ -36,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
         coll = GetComponent<Collision>();
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponentInChildren<PlayerAnimation>();
+        weapon = GetComponentInChildren<PrefabWeapon>();
     }
 
     void Update()
@@ -59,17 +62,27 @@ public class PlayerMovement : MonoBehaviour
                 Jump(Vector2.up, false);
         }
 
-
-        if (x > 0)
+        if (Input.GetButtonDown("Fire1"))
         {
+            anim.SetTrigger("shoot");
+            weapon.Shoot();
+       
+        }
+
+        if (x > 0 && side == -1)
+        {
+            // ... flip the player.
             side = 1;
             anim.Flip(side);
         }
-        if (x < 0)
+        // Otherwise if the input is moving the player left and the player is facing right...
+        else if (x < 0 && side == 1)
         {
+            // ... flip the player.
             side = -1;
             anim.Flip(side);
         }
+
     }
 
     private void Walk(Vector2 dir)
@@ -79,7 +92,6 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             rb.velocity = Vector2.SmoothDamp(rb.velocity, (new Vector2(dir.x * speed, rb.velocity.y)), ref m_Velocity, m_MovementSmoothing);
-
         }
     }
     private void Jump(Vector2 dir, bool wall)

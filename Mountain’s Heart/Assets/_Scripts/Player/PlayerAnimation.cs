@@ -45,7 +45,6 @@ public class PlayerAnimation : MonoBehaviour
 
     public void Flip(int side)
     {
-
         if (move.wallGrab || move.wallSlide)
         {
             if (side == -1 && sr.flipX)
@@ -58,6 +57,8 @@ public class PlayerAnimation : MonoBehaviour
         }
 
         bool state = (side == 1) ? false : true;
-        sr.flipX = state;
+        //sr.flipX = state;
+        transform.Rotate(0f, 180f, 0f);
+
     }
 }
