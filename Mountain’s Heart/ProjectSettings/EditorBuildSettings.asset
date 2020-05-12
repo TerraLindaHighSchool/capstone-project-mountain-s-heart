@@ -29,4 +29,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Region Scenes/Scenes_Foothills/Foothills_7.unity
     guid: 46744e5130d8c054e81350bab646615c
+  - enabled: 1
+    path: Assets/Scenes/Dev Scenes/cube.unity
+    guid: bc3733be94b96c04b8aae0f6e409dde3
+  - enabled: 1
+    path: Assets/Scenes/Dev Scenes/AI Playground.unity
+    guid: ede354bb68b47cc4c9fca4feb1609602
+  - enabled: 1
+    path: Assets/Scenes/Dev Scenes/Test.unity
+    guid: f172dc331ce411a46bf23682871291e6
   m_configObjects: {}

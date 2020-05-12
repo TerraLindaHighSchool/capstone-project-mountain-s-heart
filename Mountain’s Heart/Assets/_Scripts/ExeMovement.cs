@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class ExeMovement : MonoBehaviour
 {
     public PlayerStateList pState;
 
@@ -395,3 +395,6 @@ public class PlayerMovement : MonoBehaviour
     }
     
 }
+
+
+
