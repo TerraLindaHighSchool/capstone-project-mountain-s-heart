@@ -233,26 +233,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2349083058847254454, guid: 32afd34d682f9bb4290256c0058bbf27,
-        type: 3}
-      propertyPath: m_LinearDrag
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2349083058847254454, guid: 32afd34d682f9bb4290256c0058bbf27,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0.04
-      objectReference: {fileID: 0}
     - target: {fileID: 2349083058847254456, guid: 32afd34d682f9bb4290256c0058bbf27,
         type: 3}
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 2349083058847254458, guid: 32afd34d682f9bb4290256c0058bbf27,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
     - target: {fileID: 2349083058850090931, guid: 32afd34d682f9bb4290256c0058bbf27,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -1207,27 +1192,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 354e810ccbde8c543be7cd72fb7b5534, type: 3}
---- !u!1 &1209788802 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2349083058847254456, guid: 32afd34d682f9bb4290256c0058bbf27,
-    type: 3}
-  m_PrefabInstance: {fileID: 97764494}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1209788812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1209788802}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 266042d5f4f1f0a4eb5bafa1ce3d0bec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  firePoint: {fileID: 2032707413}
-  bulletPrefab: {fileID: 2081198443587436262, guid: 6f8a36b2ee9546540bbd2d9999621620,
-    type: 3}
 --- !u!1 &1342845062
 GameObject:
   m_ObjectHideFlags: 0
@@ -2498,12 +2462,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &2032707413 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4741233749437465341, guid: 32afd34d682f9bb4290256c0058bbf27,
-    type: 3}
-  m_PrefabInstance: {fileID: 97764494}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2036488380
 GameObject:
   m_ObjectHideFlags: 0
