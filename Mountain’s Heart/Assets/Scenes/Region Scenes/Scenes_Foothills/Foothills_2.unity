@@ -12540,8 +12540,8 @@ Tilemap:
   - first: {x: 22, y: 25, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 2
-      m_TileSpriteIndex: 2
+      m_TileIndex: 8
+      m_TileSpriteIndex: 8
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -21507,7 +21507,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 92a79a694c6f49f488e4273fb5348ee8, type: 2}
   - m_RefCount: 1142
     m_Data: {fileID: 11400000, guid: 9640fb90edec7ea448c71e4246109005, type: 2}
-  - m_RefCount: 22
+  - m_RefCount: 21
     m_Data: {fileID: 11400000, guid: 7c254e2d6845ff34a8b7c60387d7d7e1, type: 2}
   - m_RefCount: 50
     m_Data: {fileID: 11400000, guid: 4638fc0144011754b8a6f7c899584d97, type: 2}
@@ -21519,7 +21519,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 67c14b890d458cd43883c955508b3cea, type: 2}
   - m_RefCount: 867
     m_Data: {fileID: 11400000, guid: bdbb9523787400347879634dd9a0b6f7, type: 2}
-  - m_RefCount: 40
+  - m_RefCount: 41
     m_Data: {fileID: 11400000, guid: 3541bf9076701014fbc4b3c5c036f82b, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 1b08b4279df69994c978cab7c453f782, type: 2}
@@ -21540,7 +21540,7 @@ Tilemap:
   - m_RefCount: 1142
     m_Data: {fileID: 6925217940248760208, guid: 56666ad8d85d9344dae4e311d591cf32,
       type: 3}
-  - m_RefCount: 22
+  - m_RefCount: 21
     m_Data: {fileID: -8404230083217077028, guid: 56666ad8d85d9344dae4e311d591cf32,
       type: 3}
   - m_RefCount: 50
@@ -21558,7 +21558,7 @@ Tilemap:
   - m_RefCount: 867
     m_Data: {fileID: 3245273848972340213, guid: 6cdd19abe1329fa4b9f02edd3ea88cb5,
       type: 3}
-  - m_RefCount: 40
+  - m_RefCount: 41
     m_Data: {fileID: -1327952840484599532, guid: 56666ad8d85d9344dae4e311d591cf32,
       type: 3}
   - m_RefCount: 1
@@ -22157,11 +22157,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LevelLoader
-      objectReference: {fileID: 0}
-    - target: {fileID: 777704177326516910, guid: 9a7f5c88ce32b7345b9f1adfe1c48434,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 777704177326516911, guid: 9a7f5c88ce32b7345b9f1adfe1c48434,
         type: 3}
