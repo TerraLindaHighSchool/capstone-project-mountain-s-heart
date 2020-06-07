@@ -30,6 +30,33 @@ EditorBuildSettings:
     path: Assets/Scenes/Region Scenes/Scenes_Foothills/Foothills_7.unity
     guid: 46744e5130d8c054e81350bab646615c
   - enabled: 1
+    path: Assets/Scenes/Region Scenes/Scenes_Foothills/Foothills_8.unity
+    guid: 2c50c2aad9e20504a8e51daa91e6ff38
+  - enabled: 1
+    path: Assets/Scenes/Region Scenes/Scenes_Foothills/Foothills_9.unity
+    guid: 2e418d24c5104a74498d27790506f898
+  - enabled: 1
+    path: Assets/Scenes/Region Scenes/Scenes_Foothills/Foothills_10.unity
+    guid: d224a500008c062468d38aa119ee3f44
+  - enabled: 1
+    path: Assets/Scenes/Region Scenes/Scenes_Foothills/Foothills_11.unity
+    guid: 0ee699fe1b14c754a856e19f13779f2d
+  - enabled: 1
+    path: Assets/Scenes/Region Scenes/Scenes_Foothills/Foothills_12.unity
+    guid: 179b18d5194739346b001c0b4f257a87
+  - enabled: 1
+    path: Assets/Scenes/Region Scenes/Scenes_Foothills/Foothills_13.unity
+    guid: f6ff0e4d830a46e4a9758e1d2f476f0f
+  - enabled: 1
+    path: Assets/Scenes/Region Scenes/Scenes_Foothills/Foothills_14.unity
+    guid: 7c797e70c5210874f9d3c8ea49b9330b
+  - enabled: 1
+    path: Assets/Scenes/Region Scenes/Scenes_Foothills/Foothills_15.unity
+    guid: 031ef68e2f8263b47848d8e032010ce9
+  - enabled: 1
+    path: Assets/Scenes/Region Scenes/Scenes_Foothills/Foothills_17.unity
+    guid: 94dd8eaa43a443c48aa93eab6ce11692
+  - enabled: 1
     path: Assets/Scenes/Dev Scenes/cube.unity
     guid: bc3733be94b96c04b8aae0f6e409dde3
   - enabled: 1
